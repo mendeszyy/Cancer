@@ -1,68 +1,9 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #f9f9f9;
-}
-header {
-  background-color: #9b1b30;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  margin: 10px 0 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-main {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
-}
-section {
-  margin-bottom: 40px;
-}
-h2 {
-  color: #9b1b30;
-  margin-bottom: 10px;
-}
-.story {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #fff;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-button {
-  background-color: #9b1b30;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-button:hover {
-  background-color: #7c1626;
-}
-#hospitais-container {
-  margin-top: 15px;
-  background-color: #eaeaea;
-  padding: 15px;
-  border-radius: 5px;
-}
-footer {
-  background-color: #9b1b30;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
+body { background: #f9f2f5; color: #333; font-family: Arial, sans-serif; }
+header { background: #c97baf; color: white; padding: 20px; position: sticky; top: 0; }
+nav a:hover { text-decoration: underline; }
+#hero { text-align: center; padding: 60px 20px; background: #f2e2ed; }
+button.cta { background: #9b1b30; color: white; padding: 15px 25px; border: none; border-radius: 5px; }
+button.cta:hover { background: #7c1626; }
+.infographic img { max-width: 100%; height: auto; }
+section { margin: 40px 0; }
+footer { background: #c97baf; color: white; text-align: center; padding: 20px 0; }
