@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>…<!-- Cabeçalho com estilo refinado — paleta rosa/lavanda + tipografia elegante --></head>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caldo de Cana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<header>
-  <h1>Cura do Câncer</h1>
-  <nav>…</nav>
-</header>
-<main>
-  <section id="hero">
-    <h2>Cura do Câncer é Informação e Esperança</h2>
-    <p>Juntos estamos mais fortes. Conheça, compartilhe, ajude.</p>
-  </section>
-  <section id="estatisticas">…</section>
-  <section id="infografico">
-    <h2>5 Sinais de Alerta</h2>
-    <img src="infografico-alertas.svg" alt="Infográfico com 5 sinais de alerta">
-  </section>
-  <section id="quiz">…</section>
-  <section id="casos">…</section>
-  <section id="recursos">…</section>
-  <section id="compartilhar">
-    <h2>Compartilhe Sua História</h2>
-    <form>…</form>
-  </section>
-  <section id="contact">…</section>
-</main>
-<footer>…</footer>
-<script src="script.js"></script>
+  <header>
+    <h1>Caldo de Cana</h1>
+    <nav>
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="historia" class="card">
+      <h2>História</h2>
+      <p>
+        O caldo de cana é uma das bebidas mais tradicionais do Brasil. 
+        Produzido a partir da moagem da cana-de-açúcar, tornou-se símbolo das feiras, 
+        mercados e encontros ao ar livre. Sua história remonta ao período colonial, 
+        quando a cana chegou com os portugueses no século XVI.
+      </p>
+    </section>
+
+    <section id="beneficios" class="card">
+      <h2>Benefícios</h2>
+      <ul>
+        <li>Fornece energia rápida e natural</li>
+        <li>Rico em vitaminas e minerais essenciais</li>
+        <li>Auxilia na hidratação do corpo</li>
+        <li>Contém antioxidantes que combatem o envelhecimento</li>
+      </ul>
+    </section>
+
+    <section id="curiosidades" class="card">
+      <h2>Curiosidades</h2>
+      <p id="curiosidade-texto">Clique no botão abaixo para descobrir uma curiosidade.</p>
+      <button onclick="mostrarCuriosidade()">Mostrar Curiosidade</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Site sobre Caldo de Cana</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
